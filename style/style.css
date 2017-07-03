@@ -1,0 +1,375 @@
+* {
+	border-radius: 0 !important;
+}
+body{
+	background: #f7f7f7;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style-type: none;
+}
+
+ul, ol {
+  padding-left: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-transform: none;
+    font-weight: 600;
+    color: #403D3C;
+}
+
+.navbar-default {
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0px 5px #bbb;
+}
+
+.navbar-nav li a{
+	text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: darkgrey;
+}
+
+.thumbnail a>img, .thumbnail>img {
+	height: 186px;
+	width: 194px;
+}
+
+.thumbnail {
+	padding: 0;
+}
+.card{
+	width: 24.3%;
+    height: 250px;
+    border: none;
+    display: block;
+    background-position: center !important;
+    display: inline-block;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-top: 5px;
+    position: relative;
+}
+.category {
+	margin-right: 10px;
+}
+.category:nth-child(4) {
+	margin-right: 0;
+}
+.category-title {
+	color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 24px;
+    line-height: 24px;
+}
+.category-title:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.title-container {
+	float:left;
+	width: 100%;
+	padding: 10px;
+	position:absolute;
+	bottom:0;
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+}
+.layer {
+	float: left;
+    width: 100%;
+    display: inline-block;
+    height: 250px;
+}
+.categories {
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 5px;
+	padding-bottom: 25px;
+}
+.post {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 25px;
+}
+.post-card {
+	border: 1px solid rgba(204,204,204,0.4);
+    padding: 0px;
+    background: #fff;
+}
+.post img {
+	width: 100%;
+	height: 200px;
+}
+.post .caption {
+	padding: 20px;
+}
+.caption h3 {
+	line-height: 22px;
+	min-height: 44px;
+}
+.caption p {
+	color: grey;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20;
+    margin-top: 30px;
+    min-height: 60px;
+}
+.post-container {
+	margin-bottom: 30px;
+}
+.cat .categories {
+	border: none;
+}
+
+.logo a {
+	color: #555;
+	font-family: 'Wendy One', sans-serif;
+	font-size: 40px;
+}
+.logo a span {
+	color: #68fb68;
+}
+
+.error-details {
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+.panel {
+  background: #fff;
+}
+
+.recipe-title {
+  color: #403D3C;
+  font-weight: 700;
+  margin: 0 0 2px;
+  font-size: 3.5rem;
+  line-height: 56px;
+}
+
+.recipe-description {
+  color: #666;
+  font-size: 1.6rem;
+  line-height: 26px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.recipe-description2 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 26px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.recipe-description2 li {
+  margin-top: 15px;
+}
+
+.ingredients-title {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.search {
+  width: 100%;
+}
+
+.navbar-default .navbar-nav .active, .navbar-default .navbar-nav .active:focus, .navbar-default .navbar-nav .active:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+img.mobile {
+  display: none;
+}
+
+.recipe-box {
+  padding-right: 50px;
+}
+
+.side-categories ul li {
+  padding: 5px 2px;
+}
+
+.side-categories ul li a {
+  color: #666;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.side-categories ul li a:hover {
+  color: #000;
+}
+
+.side-categories {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contents {
+    background: #fff;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #eee !important;
+    min-height: 500px;
+} 
+
+/****** CSS for loader ******/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50% !important;
+  border-top: 16px solid #5cb85c;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+	position: fixed;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.loader-container {
+	position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: 9;
+    width: 100%;
+}
+/****** end *******/
+/****** Loader2 ***/
+.loader2,
+.loader2:before,
+.loader2:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader2 {
+  color: #5cb85c;
+  font-size: 10px;
+  margin: 0px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader2:before,
+.loader2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader2:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader2:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+/****** end of Loader2 *****/
+/****** Media Queries ***/
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 24%;
+    }
+    img.desktop {
+      display: block;
+    }
+    img.mobile {
+      display: none;
+    }
+    .recipe-box {
+      padding-right: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 48.5%;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .card {
+        width: 100%;
+    }
+    .search {
+      padding-bottom: 25px;
+    }
+    .logo {
+      width: 80%;
+    }
+    .logo a {
+      font-size: 35px;
+    }
+    img.mobile {
+      display: block;
+    }
+    img.desktop {
+      display: none;
+    }
+    .recipe-box {
+      padding-right: 15px;
+    }
+}
+
+/****** end of Media Queries ****/
